@@ -37,6 +37,7 @@
 
 #define SPINDLE_TYPE            SpindleType::PWM
 #define SPINDLE_OUTPUT_PIN      GPIO_NUM_2   
+//On pin 2, place 10k resistor to base of NPN, emitter gnd, collector to parallel1
 
 #define CONTROL_FEED_HOLD_PIN   GPIO_NUM_34  // labeled Hold,  needs external pullup
 #define CONTROL_CYCLE_START_PIN GPIO_NUM_35  // labeled Start, needs external pullup
